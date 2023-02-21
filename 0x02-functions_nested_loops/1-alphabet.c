@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	_putchar('alphabet');
+	_putchar_alphabet();
 	_putchar('\n');
 	return (0);
 }
