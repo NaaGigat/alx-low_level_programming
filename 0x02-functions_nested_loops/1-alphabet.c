@@ -3,7 +3,7 @@
  * main - Alphabet in lowercase and a new line
  * Return: 0 Always
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alp;
 
