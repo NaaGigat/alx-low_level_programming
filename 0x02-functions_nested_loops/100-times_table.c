@@ -8,13 +8,13 @@ void print_times_table(int x)
 {
 	int num, mult, prod;
 
-	if (n >= 0 && n <= 15)
+	if (x >= 0 && x <= 15)
 	{
-		for (num = 0; num <= n; num++)
+		for (num = 0; num <=x; num++)
 		{
 			_putchar('0');
 
-			for (mult = 1; mult <= n, mult++)
+			for (mult = 1; mult <= x, mult++)
 			{
 				_putchar('');
 				_putchar('');
