@@ -41,10 +41,10 @@ int main(void)
 		if (mar != 98)
 			printf(", ");
 
-		naa_naa1 = fib2_half1;
-		naa_naag2 = fib2_half2;
-		naag_half1 = naa1;
-		naag_half2 = naag2;
+		naa_naa1 = naag_naa1;
+		naa_naag2 = naag_naag2;
+		naag_naa1 = naa1;
+		naag_naag2 = naag2;
 	}
 	printf("\n");
 	return (0);
