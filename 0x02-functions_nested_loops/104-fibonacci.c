@@ -24,7 +24,7 @@ int main(void)
 
 	naa_naa1 = naa / 10000000000;
 	naag_naa1 = naag / 10000000000;
-	naa_naa2 = naa % 10000000000;
+	naa_naag2 = naa % 10000000000;
 	naag_naag2 = naag % 10000000000;
 
 	for (mar = 93; mar < 99; mar++)
