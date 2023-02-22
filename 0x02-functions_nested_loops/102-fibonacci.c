@@ -9,7 +9,7 @@
 int main(void)
 {
 	int mar;
-	
+
 	unsigned long naa = 0, naag = 1, sum;
 
 	for (mar = 0; mar < 50; mar++)
