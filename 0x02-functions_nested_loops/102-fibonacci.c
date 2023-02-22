@@ -17,7 +17,7 @@ int main(void)
 		sum = naa + naag;
 		printf("%lu", sum);
 
-		naag = naag;
+		naa = naag;
 		naag = sum;
 
 		if (mar == 49)
