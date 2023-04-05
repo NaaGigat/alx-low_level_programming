@@ -3,11 +3,15 @@
 #include <stdlib.h>
 
 /**
- * insert_nodeint_at_index - adds a new element to a list at a definite position
- * @head: head node's pointer to the address 
- * @idx: new node's index
- * @n: integer to new node
- * Return: If the function fails - NULL, Otherwise - the address of the new node
+ * insert_nodeint_at_index - adds a new node to a listint_t
+ *	list at a given position
+ * @head: pointer to the address of the head
+ *	of the listint_t list
+ * @idx: index of the listint_t list where the new node
+ *	should be added - indices start at 0
+ * @n: integer for the new node to contain
+ * Return: If the function fails - NULL
+ *	Otherwise - the address of the new node
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
