@@ -4,7 +4,6 @@
 /**
  * binary_to_uint - binary number conversion to unsigned int
  * @b: a string of 0 and 1 chars pointer
- *
  * Return: the converted number, or 0 if there is one or more chars in the
  * string b that is not 0 or 1, or if b is NULL
  */
