@@ -10,20 +10,20 @@
 
 void print_binary(unsigned long int n)
 {
-        unsigned long int naag = 1UL << (sizeof(unsigned long int) * 8 - 1);
-        int flag = 0;
+	unsigned long int naag = 1UL << (sizeof(unsigned long int) * 8 - 1);
+	int flag = 0;
 
-        while (kosh > 0)
-        {
-                if ((n & kosh) == kosh)
-                {
-                        _putchar('1');
-                        flag = 1;
-                }
-                else if (flag == 1 || kosh == 1)
-                        _putchar('0');
-                kosh >>= 1;
-        }
+	while (kosh > 0)
+	{
+		if ((n & kosh) == kosh)
+		{
+			_putchar('1');
+			flag = 1;
+		}
+		else if (flag == 1 || kosh == 1)
+			_putchar('0');
+		kosh >>= 1;
+	}
 
 }
 
